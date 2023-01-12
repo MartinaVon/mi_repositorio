@@ -1,0 +1,86 @@
+.Container__session-form {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    .session-form {
+        width: 30em;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .session-form__title{
+            text-align: center;
+
+            h2 {
+                font-weight: lighter;
+                font-size: 40px;
+                letter-spacing: 3px;
+                @media (max-width: 480px) {
+                    font-size: 30px;
+                }
+                  
+            }
+            h6 {
+                margin-top: 1em;
+                font-size: 1em;
+                font-weight: lighter;
+             }
+         }
+         .session-form__form {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            form{
+                width: 80%;
+                height: 100%;
+                margin-top: 2em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                input {
+                    width: 100%;
+                    margin: 20px;
+                    padding: 1em 0.5em;
+                    font-size: 1em;
+                    border: solid 2px rgb(228, 223, 223);
+                    border-radius: 8px;
+                    &:focus {
+                        outline: solid 2px #55a091;
+                    }
+                 }
+
+                .input__submit {
+                    @extend %button;
+                    width: 80%;
+                    margin: 20px;
+                    &:hover {
+                        background-color: $color2;
+                    }
+                 }  
+            }
+            .session__text-link {
+                display: block;
+                text-align: center;
+                margin-bottom: 10px;
+                color: black;
+                text-decoration: none;
+                &:hover {
+                    color: $color2;
+                }
+             }
+         }
+     }
+ }
+
+ 

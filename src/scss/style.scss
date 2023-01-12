@@ -1,0 +1,58 @@
+@font-face {
+    font-family: urbanist;
+    src: url(./static/Urbanist-Light.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: urbanist;
+    font-weight: lighter;
+}
+
+html, body {
+   max-width: 100vw !important;
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 75px 1fr 50vh;
+    grid-template-areas: "header header header header"
+                         "main   main   main   main"
+                         "footer footer footer footer";
+
+    @media (max-width: 1140px) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 75px auto 450px;
+        grid-template-areas: "header header header header"
+                            "main   main   main   main"
+                            "footer footer footer footer";
+
+                           
+   }
+   @media (max-width: 769px) {
+       grid-template-columns: repeat(4, 1fr);
+       grid-template-rows: 75px auto auto;
+       grid-template-areas: "header header header header"
+                            "main   main   main   main"
+                            "footer footer footer footer";
+    }
+    
+}
+
+@import "variables";
+@import "extend";
+@import "wpp";
+@import "header";
+@import "main-index";
+@import "productos";
+@import "producto";
+@import "contacto";
+@import "session";
+@import "footer";
+
+
+
