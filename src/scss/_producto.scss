@@ -1,0 +1,161 @@
+.Product-container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 920px) {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        }
+
+    .Product-container__img {
+        width: 50%;
+        height: 70%;
+        object-fit: cover;
+        @media (max-width: 1140px) {
+            min-width: 600px;
+        }
+        @media (max-width: 920px) {
+            margin-top: 60px;
+            width: 80%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 600px) {
+            min-width: 480px;
+            margin-top: 100px;
+        } 
+        @media (max-width: 480px) {
+            min-width: 400px;
+        }
+        @media (max-width: 400px) {
+            width: 100%;
+            height: 30%;
+            min-width: 320px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin-top: 60px;
+            margin-left: 30px;
+            @media (max-width: 920px) {
+                      width: 80%;
+                      margin-top: 10%;
+                      margin: 0;
+                }      
+          }
+      }
+    .Product-container__info {
+        width: 40%;
+        margin-top: 60px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 1140px) {
+            width: 30%;
+        }
+        @media (max-width: 920px) {
+            width: 80%;
+            margin: 50px;
+        }
+        @media (max-width: 480px) {
+            width: 90%;
+            margin: 30px;
+        }
+         
+
+        .Product-info__title {
+            border-bottom: solid 1px lightslategrey;
+            padding-bottom: 20px;
+            margin-right: 40px;
+
+            h3 {
+                font-size: 30px;
+                font-weight: lighter;
+                letter-spacing: 3px;
+                @media (max-width: 480px) {
+                    font-size: 25px;
+                }
+                @media (max-width: 400px) {
+                    font-size: 20px;
+                }
+              }
+            h4 {
+                margin-top: 20px;
+                font-size: 25px;
+                @media (max-width: 480px) {
+                    font-size: 20px;
+                }
+                @media (max-width: 400px) {
+                    font-size: 15px;
+                }
+             } 
+          }
+        .Product-info__info {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+         }
+         .product__quantity {
+            margin-top: 200px;
+            @media (max-width: 920px) {
+                margin-top: 100px;
+            }
+              
+            p {
+                display: block;
+                margin-bottom: 10px;
+            }
+            .Product-info__quantity {
+                display: inline-block;
+                width: 150px;
+                border: solid 1px lightslategray;
+                @media (max-width:480px) {
+                    width: 120px;
+                }
+
+                input {
+                    width: 33%;
+                    padding: 10px;
+                    border: none;
+                    text-align: center;
+                    &:focus {
+                        outline: none;
+                    }
+                 }
+                .quantity-modifier {
+                    width: 30%;
+                    padding: 10px;
+                    border: none;
+                    background-color: white;
+                 }
+             }
+
+            .product__btn-container {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                .btn__submit {
+                    @extend %button;
+                    width: 90%;
+                    margin-top: 30px;
+                    padding: 20px 0px;
+                    
+                    &:hover {
+                        background-color: $color2;
+                    }
+                    @media (max-width:920px) {
+                        width: 70%;
+                    }
+                 }
+
+            }
+
+             
+         }
+      }
+  }
+  

@@ -1,0 +1,22 @@
+$color1: #96a782;
+$color2:#d8523d;
+$color3: #133531;
+
+
+$button: (
+    background:$color1,
+    color:white,
+    padding:15px,
+    border-radius:5px,
+    border:none,
+    letter-spacing:3px,
+    font-size:15px,
+    transition:0.2s,
+);
+
+
+
+.button {
+    @extend %button
+}
+   
