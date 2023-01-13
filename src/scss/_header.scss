@@ -9,6 +9,7 @@ header {
     width: 100vw;
     height: 70px;
     padding-right: 20px;
+    z-index: 2;
     
     @media (max-width: 1140px) {
         justify-content: space-between;
@@ -94,6 +95,9 @@ header {
                             border-bottom: none;
                         }
                     } 
+                }
+                .nav-li-outlet {
+                    color: $color2;
                 }
             }
             .current {
