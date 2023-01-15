@@ -26,28 +26,18 @@ body {
 
     @media (max-width: 1140px) {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 75px auto auto 450px;
+        grid-template-rows: 75px auto auto auto;
         grid-template-areas: "header header header header"
                             "main   main   main   main"
                             "info   info   info   info"
-                            "footer footer footer footer";
-
-                           
+                            "footer footer footer footer";           
    }
-   @media (max-width: 769px) {
-       grid-template-columns: repeat(4, 1fr);
-       grid-template-rows: 75px auto auto auto;
-       grid-template-areas: "header header header header"
-                            "main   main   main   main"
-                            "info   info   info   info"
-                            "footer footer footer footer";
-    }
-    
 }
 
 @import "variables";
 @import "extend";
 @import "wpp";
+@import "outlet";
 @import "info-for-buying";
 @import "header";
 @import "main-index";

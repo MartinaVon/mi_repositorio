@@ -19,7 +19,7 @@
 
       .allproducts {
         width: 20%;
-        height: 320px;
+        height: 300px;
         margin: 20px;
         padding: 5px;
         min-width: 200px;
@@ -34,16 +34,13 @@
             min-width: 180px;
         }
         @media (max-width: 480px) {
-            min-width: 180px;
-            margin: 0;
-            margin-bottom: 20px;
-        }
-        @media (max-width: 360px) {
             min-width: 150px;
+            height: 200px;
             margin: 0;
+            margin-top: 10px;
             margin-bottom: 20px;
         }
-          
+    
         img {
             width: 100%;
             transition: 0.5s;
@@ -57,10 +54,12 @@
         }
         .precio {
             padding: 7px;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 800;
         }
       }
+
+ 
    
  
 

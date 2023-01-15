@@ -64,6 +64,7 @@
             justify-content: center;
             @media (max-width: 1140px) {
                 justify-content: center;
+                height: auto;
             }
             @media (max-width: 550px) {
                 width: 100%;
@@ -95,8 +96,8 @@
                 }
                 input {
                     padding: 1%;
-                    border: solid 1px black;
                     width: 70%;
+                    border: none;
                     margin-bottom: 5%;
                     background-color: white;
                     font-size: 15px;
@@ -111,7 +112,6 @@
 
                 textarea {
                     padding: 1%;
-                    border: solid 1px black;
                     width: 70%;
                     height: 7em;
                     padding-right: 30px;
