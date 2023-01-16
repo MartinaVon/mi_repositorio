@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casablanca Bazar & deco</title>
-    <meta name="description" content="Todo lo que necesitás para tu casa. Artículos de cocina, bazar, deco, diseño y mucho más. ">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="description" content="Casablanca Bazar. Comprar Repasador Nido.">
+    <title>Casablanca - producto</title>
+    <script src="https://kit.fontawesome.com/5d134e89fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/estilos2.css">
+    <title>Document</title>
     <script src="https://kit.fontawesome.com/5d134e89fc.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+          
         <label class="label-menu" for="hamburguesa"><i class="fa-solid fa-bars"></i></label>
         <input class="input-menu" type="checkbox" id="hamburguesa">
            
@@ -36,7 +48,7 @@
        
         <nav class="header__navbar">
                 <ul class="header__navlist">
-                    <li class="navbar__li"><a href="/index.html" class="current">INICIO</a></li>
+                    <li class="navbar__li"><a href="/index.html">INICIO</a></li>
                     <li class="navbar__li"><a href="/Productos.html">PRODUCTOS</a></li>
                     <li class="navbar__li"><a href="/contacto.html">CONTACTO</a></li>
                     <li class="navbar__li"><a href="/outlet.html" class="nav-li-outlet">OUTLET</a></li>
@@ -48,10 +60,6 @@
             <div class="header__searcher">
                 <div class="navbar__searcherBox">
                     <input type="search" class="searcherBox__search" placeholder="¿Qué estás buscando?">
-                    <button type="submit" class="btn-for-search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                    
                 </div>
             </div>
             <div class="icons header__cart">
@@ -61,109 +69,50 @@
              </div>
             
             <div class="icons header__session">
-                <a href="/session.html">
+                <a href="./session.html">
                     <i class="fa-solid fa-user"></i>
                 </a>
             </div>          
         </div>
     </header>
 
-    <main class="main">
-        <section class="banner-box">
-            <h1> CASABLANCA BAZAR & DECO</h1>
-               
-                <div class="banner-box__text">
-                    <h2>TODO LO QUE NECESITAS PARA TU CASA</h2>
-                    <div class="contenido__link">
-                        <a href="./Productos.html">VER PRODUCTOS</a>
+
+    <main>
+        <section class="Product-container">
+
+            <div class="Product-container__img">
+               <img src="/assets/img/producto 3.jpeg" alt="Producto repasador">
+            </div>
+
+            <div class="Product-container__info">
+                <div class="Product-info__title">
+                    <h1>REPASADOR NIDO</h1>
+                    <h2 class="price">$1200,00</h2>
+                </div>
+                <div class="Product-info__info">
+                    <p>Descripción del producto.</p>
+                </div>
+                
+                <div class="product__quantity">
+                    <p>Cantidad:</p>
+                    <div class="Product-info__quantity">
+                        <button class="quantity-modifier">-</button>
+                        <input type="number" name="" id="">
+                        <button class="quantity-modifier">+</button>
                     </div>
-                </div> 
-                <div class="banner-box__contenido">
+                    <div class="product__btn-container">
+                        <button class="btn__submit">AÑADIR AL CARRITO</button>
+                    </div>
                     
-                </div>   
-   
+                   
+                </div>
+            </div>
+
         </section>
 
-
-        <section class="section-banners">
-            <div class="box1">
-                <div class="container-image container-first-image">
-                    <div class="textarea">
-                        <a class="banner-description" href="#">Home & deco</a> 
-                    </div> 
-    
-                </div>
-                <div class="container-image container-second-image">
-                    <div class="textarea">
-                        <a class="banner-description" href="#">Cocina</a> 
-                    </div>
-                </div>
-                <div class="container-image container-third-image">
-                    <div class="textarea">
-                        <a class="banner-description" href="#">Baño</a> 
-                    </div> 
-    
-                </div>
-                <div class="container-image container-four-image">
-                    <div class="textarea">
-                        <a class="banner-description" href="#">Parrilla</a> 
-                    </div> 
-    
-                </div>
-            </div> 
-        </section>
-        
-        <section class="section-for-offers">
-           <div class="offers-banner">
-                <a href=>VER TODAS LAS OFERTAS</a>
-           </div>
-           <div class="offers-text">
-            <h3>OFERTAS</h3>
-           </div>
-           <div class="offers-row">
-                <div class="allproducts">
-                    <a href="./producto.html">
-                        <div class="imgContainer1">
-                            <img src="/assets/img/producto1.jpeg" alt="Producto repasador">
-                        </div>
-                        <p>REPASADOR NIDO DE ABEJA</p>
-                        <p class="precio">$700,00</p>
-                    </a>
-                </div>    
-                <div class="allproducts">
-                    <a href="./producto.html">
-                        <div class="imgContainer1">
-                            <img src="/assets/img/producto2.jpeg" alt="Producto servilletero">
-                        </div>
-                        <p>SERVILLETERO DE ALAMBRE</p>
-                        <p class="precio">$2.600,00</p>
-                    </a>
-                </div>
-                <div class="allproducts">
-                    <a href="./producto.html">
-                        <div class="imgContainer1">
-                            <img src="/assets/img/producto 3.jpeg" alt="Producto repasador">
-                        </div>
-                        <p>REPASADOR BASIC</p>
-                        <p class="precio">$800,00</p>
-                    </a>
-                </div>
-                <div class="allproducts">
-                    <a href="./producto.html">
-                        <div class="imgContainer1">
-                            <img src="/assets/img/producto 4.jpeg" alt="Producto taza">
-                        </div>
-                        <p>TAZA MEDITERRANEO</p>
-                        <p class="precio">$1.700,00</p>
-                    </a>
-                </div>
-           </div>
-        </section>
-        
-        
         <section class="row-products">
             <div class="row__text">
-                <h3>PRODUCTOS DESTACADOS</h3>
+                <h3>TE PUEDE GUSTAR:</h3>
             </div>
             <div class="row-products__main">
 
@@ -172,17 +121,17 @@
                         <div class="imgContainer1">
                             <img src="/assets/img/producto1.jpeg" alt="Producto repasador">
                         </div>
-                        <p>REPASADOR NIDO DE ABEJA</p>
-                        <p class="precio">$700,00</p>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
                     </a>
                 </div>    
                 <div class="allproducts">
                     <a href="./producto.html">
                         <div class="imgContainer1">
-                            <img src="/assets/img/producto2.jpeg" alt="Producto servilletero">
+                            <img src="/assets/img/producto2.jpeg" alt="producto servilletero">
                         </div>
-                        <p>SERVILLETERO DE ALAMBRE</p>
-                        <p class="precio">$2.600,00</p>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
                     </a>
                 </div>
                 <div class="allproducts">
@@ -190,24 +139,23 @@
                         <div class="imgContainer1">
                             <img src="/assets/img/producto 3.jpeg" alt="Producto repasador">
                         </div>
-                        <p>REPASADOR BASIC</p>
-                        <p class="precio">$800,00</p>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
                     </a>
                 </div>
                 <div class="allproducts">
                     <a href="./producto.html">
                         <div class="imgContainer1">
-                            <img src="/assets/img/producto 4.jpeg" alt="Producto repasador">
+                            <img src="/assets/img/producto 4.jpeg" alt="Producto taza">
                         </div>
-                        <p>TAZA MEDITERRANEO</p>
-                        <p class="precio">$1.700,00</p>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
                     </a>
                 </div>
             </div> 
            
         </section>
     </main>
-    
 
     <div class="container__wsp">
         <a href="#">
@@ -286,4 +234,3 @@
         
     </footer>
 </body>
-</html>

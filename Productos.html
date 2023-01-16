@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <meta name="description" content="Casablanca Bazar. Comprar Repasador Nido.">
-    <title>Casablanca - producto</title>
+    <title>Productos</title>
+    <meta name="description" content="Casablanca Bazar. Todos nuestros productos.">
     <script src="https://kit.fontawesome.com/5d134e89fc.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -34,7 +34,7 @@
         
         <div class="header__right-part-for-media">
             <div class="header__icons-for-media">
-                <a href="./session.html">
+                <a href="/session.html">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
             </div>
@@ -49,9 +49,9 @@
         <nav class="header__navbar">
                 <ul class="header__navlist">
                     <li class="navbar__li"><a href="/index.html">INICIO</a></li>
-                    <li class="navbar__li"><a href="./Productos.html">PRODUCTOS</a></li>
-                    <li class="navbar__li"><a href="./contacto.html">CONTACTO</a></li>
-                    <li class="navbar__li"><a href="/pages/outlet.html" class="nav-li-outlet">OUTLET</a></li>
+                    <li class="navbar__li"><a href="/Productos.html" class="current">PRODUCTOS</a></li>
+                    <li class="navbar__li"><a href="/contacto.html">CONTACTO</a></li>
+                    <li class="navbar__li"><a href="/outlet.html" class="nav-li-outlet">OUTLET</a></li>
                 </ul>
         </nav>
 <!-- buscador  -->
@@ -69,57 +69,86 @@
              </div>
             
             <div class="icons header__session">
-                <a href="./session.html">
+                <a href="/session.html">
                     <i class="fa-solid fa-user"></i>
                 </a>
             </div>          
         </div>
     </header>
+    
+     
+    <main class="main-for-products">
 
-
-    <main>
-        <section class="Product-container">
-
-            <div class="Product-container__img">
-               <img src="/assets/img/producto 3.jpeg" alt="Producto repasador">
-            </div>
-
-            <div class="Product-container__info">
-                <div class="Product-info__title">
-                    <h1>REPASADOR NIDO</h1>
-                    <h2 class="price">$1200,00</h2>
-                </div>
-                <div class="Product-info__info">
-                    <p>Descripción del producto.</p>
-                </div>
-                
-                <div class="product__quantity">
-                    <p>Cantidad:</p>
-                    <div class="Product-info__quantity">
-                        <button class="quantity-modifier">-</button>
-                        <input type="number" name="" id="">
-                        <button class="quantity-modifier">+</button>
-                    </div>
-                    <div class="product__btn-container">
-                        <button class="btn__submit">AÑADIR AL CARRITO</button>
-                    </div>
-                    
-                   
-                </div>
-            </div>
-
+        <section class="banner-for-products">
+            <h1>TODOS NUESTROS PRODUCTOS</h1>
         </section>
 
-        <section class="row-products">
-            <div class="row__text">
-                <h3>TE PUEDE GUSTAR:</h3>
+        <section class="left-column-for-filter">
+            <h5 class="product-categories">CATEGORÍAS:</h5>
+            <a href="/Productos/Cocina.html" class="product-categories-item">COCINA</a>
+            <a href="/Productos/Baño.html" class="product-categories-item">BAÑO</a>
+            <a href="/Productos/Decoración.html" class="product-categories-item">DECORACION</a>
+            <a href="/Productos/Mesa.html" class="product-categories-item">MESA</a>
+            <a href="/Productos/Parrilla.html" class="product-categories-item">PARRILLA</a>
+            <div class="product-filter">
+                <i class="fa-solid fa-sliders"></i>
+                <h5>FILTRAR POR:</h5>  
             </div>
-            <div class="row-products__main">
+        </section>
 
+        <section class="section-for-products">
+            <div class="space-for-order-search">
+                <div class="categories-for-movile">
+                    <p>CATEGORIAS</p>
+                </div>
+                <div class="order-search">
+                    <p>ORDERNAR POR:</p>
+                </div>
+                <div class="order-search-for-movile">
+                    <i class="fa-solid fa-sliders"></i>
+                    <p>ORDERNAR Y FILTRAR</p>
+                </div>
+            </div>
+
+            <div class="row-products__main">
+                <div class="allproducts">
+                    <a href="./producto.html">
+                        <img src="/assets/img/producto1.jpeg" alt="producto1">
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
+                    </a>
+                </div>    
                 <div class="allproducts">
                     <a href="./producto.html">
                         <div class="imgContainer1">
-                            <img src="/assets/img/producto1.jpeg" alt="Producto repasador">
+                            <img src="/assets/img/producto2.jpeg" alt="producto1">
+                        </div>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
+                    </a>
+                </div>
+                <div class="allproducts">
+                    <a href="./producto.html">
+                        <div class="imgContainer1">
+                            <img src="/assets/img/producto 3.jpeg" alt="producto1">
+                        </div>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
+                    </a>
+                </div>
+                <div class="allproducts">
+                    <a href="./producto.html">
+                        <div class="imgContainer1">
+                            <img src="/assets/img/producto 4.jpeg" alt="producto1">
+                        </div>
+                        <p>Nombre del producto</p>
+                        <p>precio</p>
+                    </a>
+                </div>
+                <div class="allproducts">
+                    <a href="./producto.html">
+                        <div class="imgContainer1">
+                            <img src="/assets/img/producto1.jpeg" alt="producto1">
                         </div>
                         <p>Nombre del producto</p>
                         <p>precio</p>
@@ -128,7 +157,7 @@
                 <div class="allproducts">
                     <a href="./producto.html">
                         <div class="imgContainer1">
-                            <img src="/assets/img/producto2.jpeg" alt="producto servilletero">
+                            <img src="/assets/img/producto2.jpeg" alt="producto1">
                         </div>
                         <p>Nombre del producto</p>
                         <p>precio</p>
@@ -137,7 +166,7 @@
                 <div class="allproducts">
                     <a href="./producto.html">
                         <div class="imgContainer1">
-                            <img src="/assets/img/producto 3.jpeg" alt="Producto repasador">
+                            <img src="/assets/img/producto 3.jpeg" alt="producto1">
                         </div>
                         <p>Nombre del producto</p>
                         <p>precio</p>
@@ -146,14 +175,50 @@
                 <div class="allproducts">
                     <a href="./producto.html">
                         <div class="imgContainer1">
-                            <img src="/assets/img/producto 4.jpeg" alt="Producto taza">
+                            <img src="/assets/img/producto 4.jpeg" alt="producto1">
                         </div>
                         <p>Nombre del producto</p>
                         <p>precio</p>
                     </a>
                 </div>
-            </div> 
-           
+                <div class="row-products__main">
+                    <div class="allproducts">
+                        <a href="./producto.html">
+                            <div class="imgContainer1">
+                                <img src="/assets/img/producto1.jpeg" alt="producto1">
+                            </div>
+                            <p>Nombre del producto</p>
+                            <p>precio</p>
+                        </a>
+                    </div>    
+                    <div class="allproducts">
+                        <a href="./producto.html">
+                            <div class="imgContainer1">
+                                <img src="/assets/img/producto2.jpeg" alt="producto1">
+                            </div>
+                            <p>Nombre del producto</p>
+                            <p>precio</p>
+                        </a>
+                    </div>
+                    <div class="allproducts">
+                        <a href="./producto.html">
+                            <div class="imgContainer1">
+                                <img src="/assets/img/producto 3.jpeg" alt="producto1">
+                            </div>
+                            <p>Nombre del producto</p>
+                            <p>precio</p>
+                        </a>
+                    </div>
+                    <div class="allproducts">
+                        <a href="./producto.html">
+                            <div class="imgContainer1">
+                                <img src="/assets/img/producto 4.jpeg" alt="producto1">
+                            </div>
+                            <p>Nombre del producto</p>
+                            <p>precio</p>
+                        </a>
+                    </div>
+            </div>
         </section>
     </main>
 
@@ -162,7 +227,7 @@
             <i class="fa-brands fa-whatsapp fa-2x"></i>
         </a>
     </div>
-
+    
     <div class="info-for-buying"> 
         <div class="info-for-buying-box">
             <i class="fa-solid fa-rotate-right"></i>
@@ -205,16 +270,19 @@
                 </div>
             </div>
             <div class="footer__links footer__section">
-                <a href="#">
+                <a href="/index.html">
                     INICIO
                 </a>
-                <a href="#">
+                <a href="/Productos.html">
                     PRODUCTOS
                 </a>
-                <a href="#">
+                <a href="/contacto.html">
                    CONTACTO
                 </a>
-                <a href="#">
+                <a href="/outlet.html">
+                    OUTLET
+                 </a>
+                <a href="/session.html">
                     INICIAR SESIÓN
                 </a>
             </div>
@@ -231,3 +299,4 @@
         
     </footer>
 </body>
+

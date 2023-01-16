@@ -5,12 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Document</title>
+    <title>Productos</title>
     <meta name="description" content="Casablanca Bazar. Todos nuestros productos.">
     <script src="https://kit.fontawesome.com/5d134e89fc.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/estilos2.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5d134e89fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <header>
+          
         <label class="label-menu" for="hamburguesa"><i class="fa-solid fa-bars"></i></label>
         <input class="input-menu" type="checkbox" id="hamburguesa">
            
@@ -22,7 +34,7 @@
         
         <div class="header__right-part-for-media">
             <div class="header__icons-for-media">
-                <a href="./session.html">
+                <a href="/session.html">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
             </div>
@@ -37,9 +49,9 @@
         <nav class="header__navbar">
                 <ul class="header__navlist">
                     <li class="navbar__li"><a href="/index.html">INICIO</a></li>
-                    <li class="navbar__li"><a href="/pages/Productos.html">PRODUCTOS</a></li>
-                    <li class="navbar__li"><a href="/pages/contacto.html">CONTACTO</a></li>
-                    <li class="navbar__li"><a href="/pages/outlet.html" class="nav-li-outlet current">OUTLET</a></li>
+                    <li class="navbar__li"><a href="/Productos.html" class="current">PRODUCTOS</a></li>
+                    <li class="navbar__li"><a href="/contacto.html">CONTACTO</a></li>
+                    <li class="navbar__li"><a href="/outlet.html" class="nav-li-outlet">OUTLET</a></li>
                 </ul>
         </nav>
 <!-- buscador  -->
@@ -48,10 +60,6 @@
             <div class="header__searcher">
                 <div class="navbar__searcherBox">
                     <input type="search" class="searcherBox__search" placeholder="¿Qué estás buscando?">
-                    <button type="submit" class="btn-for-search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                    
                 </div>
             </div>
             <div class="icons header__cart">
@@ -61,24 +69,48 @@
              </div>
             
             <div class="icons header__session">
-                <a href="/pages/session.html">
+                <a href="/session.html">
                     <i class="fa-solid fa-user"></i>
                 </a>
             </div>          
         </div>
     </header>
+    
+     
+    <main class="main-for-products">
 
-    <main class="main-for-products-outlet">
-
-        <section class="banner-for-products-outlet">
-            <h1>OUTLET</h1>
-
+        <section class="banner-for-products-cocina">
+            <h1>COCINA</h1>
         </section>
-       
-        <section class="section-for-products">
+
+        <section class="left-column-for-filter">
+            <h5 class="product-categories">CATEGORÍAS:</h5>
+            <a href="#" class="product-categories-item">CUBIERTOS Y UTENSILIOS</a>
+            <a href="#" class="product-categories-item">OLLAS Y SARTENES</a>
+            <a href="#" class="product-categories-item">ACCESORIOS</a>
+            <a href="#" class="product-categories-item">MOLDES</a>
+            <div class="product-filter">
+                <i class="fa-solid fa-sliders"></i>
+                <h5>FILTRAR POR:</h5>  
+            </div>
+        </section>
+
+        <section class="section-for-products-cocina">
             <div class="space-for-order-search">
+                <div class="categories-for-movile">
+                    <p>CATEGORIAS</p>
+                </div>
+                <div class="site-map-visited">
+                    <a href="/Productos.html">PRODUCTOS</a> 
+                    <span>></span> 
+                    <a href="/Productos/Cocina.html">COCINA</a>
+                </div>
                 <div class="order-search">
                     <p>ORDERNAR POR:</p>
+                </div>
+                <div class="order-search-for-movile">
+                    <i class="fa-solid fa-sliders"></i>
+                    <p>ORDERNAR Y FILTRAR</p>
                 </div>
             </div>
 
@@ -191,24 +223,15 @@
                         </a>
                     </div>
             </div>
-
         </section>
     </main>
-
-
-
-
-
-
-
-
 
     <div class="container__wsp">
         <a href="#">
             <i class="fa-brands fa-whatsapp fa-2x"></i>
         </a>
     </div>
-
+    
     <div class="info-for-buying"> 
         <div class="info-for-buying-box">
             <i class="fa-solid fa-rotate-right"></i>
@@ -251,16 +274,19 @@
                 </div>
             </div>
             <div class="footer__links footer__section">
-                <a href="#">
+                <a href="/index.html">
                     INICIO
                 </a>
-                <a href="#">
+                <a href="/Productos.html">
                     PRODUCTOS
                 </a>
-                <a href="#">
+                <a href="/contacto.html">
                    CONTACTO
                 </a>
-                <a href="#">
+                <a href="/outlet.html">
+                    OUTLET
+                 </a>
+                <a href="/session.html">
                     INICIAR SESIÓN
                 </a>
             </div>
@@ -276,6 +302,5 @@
         </section>
         
     </footer>
-    
 </body>
-</html>
+
