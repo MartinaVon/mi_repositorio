@@ -7,4 +7,5 @@
     letter-spacing: map-get($button , letter-spacing);
     font-size: map-get($button , font-size);
     transition: map-get($button , transition );
-}
+    cursor: map-get($button , cursor );
+};

@@ -79,6 +79,14 @@
 
     <main>
         <section class="Product-container">
+        
+            <div class="site-map-visited">
+                <a href="/Productos.html">PRODUCTOS</a> 
+                <span>></span> 
+                <a href="/Productos/Cocina.html">COCINA</a>
+                <span>></span> 
+                <a href="/Productos/Cocina.html" class="current">REPASADOR NIDO</a>
+            </div>
 
             <div class="Product-container__img">
                <img src="/assets/img/producto 3.jpeg" alt="Producto repasador">
@@ -87,28 +95,52 @@
             <div class="Product-container__info">
                 <div class="Product-info__title">
                     <h1>REPASADOR NIDO</h1>
+                    <i class="fa-regular fa-heart"></i>
                     <h2 class="price">$1200,00</h2>
                 </div>
                 <div class="Product-info__info">
-                    <p>Descripción del producto.</p>
+                    <p>Tela nido de abeja.
+                        Medidas: 45cm x 55cm.
+                    </p>
+                </div>
+
+                <div class="stars-for-value">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+
+                <div class="product__color">
+                    <label for="color">Color:</label>
+                    <select id="color">
+                        <option value="VERDE">VERDE</option>
+                        <option value="AZUL">AZUL</option>
+                        <option value="BEIGE">BEIGE</option>
+                    </select>
                 </div>
                 
                 <div class="product__quantity">
-                    <p>Cantidad:</p>
-                    <div class="Product-info__quantity">
-                        <button class="quantity-modifier">-</button>
-                        <input type="number" name="" id="">
-                        <button class="quantity-modifier">+</button>
-                    </div>
-                    <div class="product__btn-container">
-                        <button class="btn__submit">AÑADIR AL CARRITO</button>
-                    </div>
-                    
-                   
+                    <label for="quantity">Cantidad:</label>
+                    <input type="text" id="quantity">
+                </div>
+
+                <div class="product__btn-container">
+                    <button class="btn__submit">AÑADIR AL CARRITO</button>
                 </div>
             </div>
 
+            <div class="product-info-for-buying">
+                <div class="info-categories">
+                    <h3>ENVIOS Y DEVOLUCIONES</h3>
+                </div>
+                <div class="info-categories">
+                    <h3>FORMAS DE PAGO</h3>
+                </div>
+            </div>
         </section>
+      
 
         <section class="row-products">
             <div class="row__text">

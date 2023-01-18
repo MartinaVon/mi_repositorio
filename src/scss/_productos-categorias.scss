@@ -1,0 +1,122 @@
+.banner-for-products-cocina {
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/img/cocinita.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 300;
+        @media (max-width: 480px) {
+            font-size: 40px;
+         }
+    }
+}
+
+.banner-for-products-deco {
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/img/deco.jpg);
+    background-size: cover;
+    background-position:0px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 300;
+        @media (max-width: 480px) {
+            font-size: 40px;
+         }
+    }
+}
+
+.banner-for-products-baño {
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/img/baño.jpg);
+    background-size: cover;
+    background-position:bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 300;
+        @media (max-width: 480px) {
+            font-size: 40px;
+         }
+    }
+}
+
+.banner-for-products-baño {
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/img/baño.jpg);
+    background-size: cover;
+    background-position:bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 300;
+        @media (max-width: 480px) {
+            font-size: 40px;
+         }
+    }
+}
+
+.banner-for-products-mesa {
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/img/mesa-primavera-2t-t.jpg.webp);
+    background-size: cover;
+    background-position:bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 300;
+        @media (max-width: 480px) {
+            font-size: 40px;
+         }
+    }
+}
+
+.banner-for-products-parrilla {
+    width: 100%;
+    height: 300px;
+    background-image: url(/assets/img/Tabla-Asado-Florencio-scaled.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    h1 {
+        color: white;
+        font-size: 80px;
+        font-weight: 300;
+        @media (max-width: 480px) {
+            font-size: 40px;
+         }
+    }
+}
+
+
+
